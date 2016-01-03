@@ -51,6 +51,8 @@ public class SplashActivity extends Activity{
                             details.setItemDiscription(nameObj.getString("item_description"));
                             details.setItemLocation(nameObj.getString("item_location"));
                             details.setItemCost(nameObj.getString("item_cost"));
+     details.setItemImagePath(nameObj.getString("item_image_path"));
+                       
                             dbHalper.addItem(details);
                         }
                         startActivity(new Intent(SplashActivity.this, HomeActivity.class));
