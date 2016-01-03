@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?><!-- item_post.xml -->
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginBottom="21dp"
+    android:layout_marginLeft="@dimen/card_margin_horizontal"
+    android:layout_marginRight="@dimen/card_margin_horizontal"
+    app:cardCornerRadius="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding8">
+
+
+            <TextView
+                android:id="@+id/tvItemName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/padding8"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/tvPostTime"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@color/subtitle" />-->
+            <LinearLayout
+                android:id="@+id/llLikes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_editor_mode_edit" />
+
+                <ImageView
+                    android:id="@+id/img_delete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/ic_action_delete" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/vImageRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#CDCDCD">
+
+            <ImageView
+                android:id="@+id/ivFeedCenter"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:adjustViewBounds="true"
+                android:elevation="3dp"
+                android:scaleType="centerCrop"
+                android:transitionName="imageCover" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/padding16"
+            android:paddingRight="@dimen/padding16"
+            android:paddingTop="@dimen/padding16"
+            >
+
+            <TextView
+                android:id="@+id/tvCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_dollar"
+                android:drawablePadding="@dimen/padding8"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#4B4F54" />
+
+            <TextView
+                android:id="@+id/tvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_communication_location_on"
+                android:drawablePadding="@dimen/padding8"
+                android:paddingLeft="@dimen/padding16"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="#4B4F54" />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/tvDesription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_insert_comment_black_48dp"
+            android:drawablePadding="@dimen/padding8"
+            android:paddingBottom="@dimen/padding16"
+            android:paddingLeft="@dimen/padding16"
+            android:paddingRight="@dimen/padding16"
+            android:paddingTop="@dimen/padding5"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="#4B4F54" />
+
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:paddingLeft="8dp"-->
+        <!--android:paddingRight="8dp"-->
+        <!--android:paddingTop="5dp">-->
+
+
+        <!--<LinearLayout-->
+        <!--android:id="@+id/llLikes"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="center_vertical|right">-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/img_edit"-->
+        <!--android:src="@drawable/ic_editor_mode_edit" />-->
+
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/img_delete"-->
+        <!--android:src="@drawable/ic_action_delete"-->
+        <!--android:layout_marginLeft="8dp"-->
+        <!--android:layout_marginRight="8dp"/>-->
+
+
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

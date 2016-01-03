@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Android/AndroidEclipse/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-0e14ea8bae60c657bef0574641d082c57cacfdca.jar" />
+    </item>
+    <item
+        jar="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/classes-1f3dc49d6fde95f4e7949cc299d5d1008cb587e7.jar" />
+    </item>
+    <item
+        jar="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/classes-51ddcd50e6a33efb29562e46631ce154a93616a7.jar" />
+    </item>
+    <item
+        jar="/Users/apu/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.11.0/6592129dec2caa8791d322c7e4b6b7a30e8eadae/parse-android-1.11.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6592129dec2caa8791d322c7e4b6b7a30e8eadae">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/parse-android-1.11.0-c631e2c0b82a22ec5e0b17ac582fab9c9f7cd980.jar" />
+    </item>
+    <item
+        jar="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/libs/cwac-camera-0.7.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2dbba7f7f8173d18907edd03356e6e6d8d7d9853">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/cwac-camera-0.7.0-4297ac4605f5364d84e67c62db4936f128eb6d95.jar" />
+    </item>
+    <item
+        jar="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/libs/internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-40eed809ece8e7b05f9d48d7148897954a87eece.jar" />
+    </item>
+    <item
+        jar="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/classes-39133a9c85826dba1bddd29433a065f5721cb495.jar" />
+    </item>
+    <item
+        jar="/Users/apu/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.3.0/8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c/bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.3.0-50e42ff19cce6c68689a313f3951b770f8ec9d0e.jar" />
+    </item>
+    <item
+        jar="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/classes-b84caccef4e2a2d906bb2a11bef047e210aff3bf.jar" />
+    </item>
+    <item
+        jar="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/classes-4d01e3f653c83dd1e73d97baf53274d7a5a3ad88.jar" />
+    </item>
+    <item
+        jar="/Users/apu/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/glide-3.6.1-ca5e6c27e9f1518185f861dbc802ef8aa10d3317.jar" />
+    </item>
+    <item
+        jar="/Users/apu/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/Android/MyWork/BrighterBrainTest/Workspace/BrighterBrainTest/app/build/intermediates/pre-dexed/debug/butterknife-7.0.1-46bbfb3fd374ff716fab669a5b830bf107b83b11.jar" />
+    </item>
+
+</items>

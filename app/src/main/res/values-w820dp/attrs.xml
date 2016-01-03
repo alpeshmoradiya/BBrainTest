@@ -1,0 +1,115 @@
+<!--
+  Copyright 2011 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+<resources>
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fab_colorPressed" format="color" />
+        <attr name="fab_colorNormal" format="color" />
+        <attr name="fab_colorRipple" format="color" />
+        <attr name="fab_shadow" format="boolean" />
+        <attr name="fab_type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="mini" value="1" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="ViewPagerIndicator">
+        <!-- Style of the circle indicator. -->
+        <attr name="vpiCirclePageIndicatorStyle" format="reference"/>
+    </declare-styleable>
+    
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+    
+    <declare-styleable name="CirclePageIndicator">
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation"/>
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background"/>
+    </declare-styleable>
+    
+    <bool name="default_circle_indicator_centered">true</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+
+    <declare-styleable name="BezelImageView">
+        <attr name="biv_maskDrawable" format="reference"/>
+        <attr name="biv_selectorOnPress" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="siv_insetForeground" format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CollectionPicker">
+        <attr name="cp_itemRadius" format="dimension" />
+        <attr name="cp_itemBackgroundNormal" format="color" />
+        <attr name="cp_itemBackgroundPressed" format="color" />
+        <attr name="cp_addIcon" format="reference" />
+        <attr name="cp_cancelIcon" format="reference" />
+        <attr name="cp_itemMargin" format="dimension" />
+        <attr name="cp_itemTextColor" format="color"/>
+        <attr name="cp_textPaddingLeft" format="dimension" />
+        <attr name="cp_textPaddingRight" format="dimension" />
+        <attr name="cp_textPaddingTop" format="dimension" />
+        <attr name="cp_textPaddingBottom" format="dimension" />
+        <attr name="cp_simplified" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressActivity">
+        <attr name="progressLoadingStateProgressBarWidth" format="dimension"/>
+        <attr name="progressLoadingStateProgressBarHeight" format="dimension"/>
+        <attr name="progressLoadingStateBackgroundColor" format="color"/>
+
+        <attr name="progressEmptyStateImageWidth" format="dimension"/>
+        <attr name="progressEmptyStateImageHeight" format="dimension"/>
+        <attr name="progressEmptyStateTitleTextSize" format="dimension"/>
+        <attr name="progressEmptyStateContentTextSize" format="dimension"/>
+        <attr name="progressEmptyStateTitleTextColor" format="color"/>
+        <attr name="progressEmptyStateContentTextColor" format="color"/>
+        <attr name="progressEmptyStateBackgroundColor" format="color"/>
+
+        <attr name="progressErrorStateImageWidth" format="dimension"/>
+        <attr name="progressErrorStateImageHeight" format="dimension"/>
+        <attr name="progressErrorStateTitleTextSize" format="dimension"/>
+        <attr name="progressErrorStateContentTextSize" format="dimension"/>
+        <attr name="progressErrorStateTitleTextColor" format="color"/>
+        <attr name="progressErrorStateContentTextColor" format="color"/>
+        <attr name="progressErrorStateButtonTextColor" format="color"/>
+        <attr name="progressErrorStateBackgroundColor" format="color"/>
+    </declare-styleable>
+</resources>

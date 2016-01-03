@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="au.com.carsoffer.instacar.ui.fragment.PostFragment">
+
+    <com.practicaltest.brighterbrain.progressactivity.ProgressActivity
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:progressEmptyStateContentTextColor="#CDCDCD"
+        app:progressEmptyStateTitleTextColor="#CDCDCD"
+        app:progressErrorStateContentTextColor="#CDCDCD"
+        app:progressErrorStateTitleTextColor="#CDCDCD">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvFeed"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" />
+
+    </com.practicaltest.brighterbrain.progressactivity.ProgressActivity>
+</RelativeLayout>

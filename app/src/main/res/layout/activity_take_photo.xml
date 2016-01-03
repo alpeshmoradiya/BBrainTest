@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FF292F36"
+        android:elevation="@dimen/toolbar_elevation">
+
+        <TextView
+            style="@style/ToolbarTitle"
+            android:text="PHOTO" />
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:orientation="vertical">
+
+
+        <com.practicaltest.brighterbrain.views.SquaredFrameLayout
+            android:id="@+id/vPhotoRoot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.commonsware.cwac.camera.CameraView
+                android:id="@+id/cameraView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical" />
+
+            <View
+                android:id="@+id/vShutter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:visibility="gone" />
+        </com.practicaltest.brighterbrain.views.SquaredFrameLayout>
+
+        <ViewSwitcher
+            android:id="@+id/vLowerPanel"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FF292F36">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:id="@+id/btnGallery"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_capture_options"
+                        android:src="@drawable/ic_collections_white_24dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/btnTakePhoto"
+                        android:layout_width="72dp"
+                        android:layout_height="72dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_capture" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/btn_capture_options"
+                        android:src="@drawable/ic_videocam_white_24dp"
+                        android:visibility="gone" />
+                </FrameLayout>
+            </LinearLayout>
+        </ViewSwitcher>
+
+
+    </LinearLayout>
+</RelativeLayout>
